@@ -103,7 +103,7 @@ function checkSpam() {
     // loop for multiple spam checks
     for (var i = 1; i <= loopCount; i++) {
         var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://daosubre.site/API/SMSCALL.php/?key=poluvgau&phone=" + phone, false);
+        xhr.open("GET", "https://spam.ctdotech.com/APIspam.php?phone=" + phone + "&key=ngu", false);
         xhr.send();
         var response = JSON.parse(xhr.responseText);
         var dataOpt = response["DATA-OPT"];
