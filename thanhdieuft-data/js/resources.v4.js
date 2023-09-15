@@ -306,10 +306,12 @@ function __Yamate__() {
 }
 // MUSIC PLAY
 const ThanhDieu_List = [
-  "./thanhdieuft-data/img/1.mp3",
-  "./thanhdieuft-data/img/2.mp3", 
-  "./thanhdieuft-data/img/3.mp3",
-  "./thanhdieuft-data/img/4.mp3",
+  "./thanhdieuft-data/img/a.mp3",
+  "./thanhdieuft-data/img/b.mp3", 
+  "./thanhdieuft-data/img/c.mp3",
+  "./thanhdieuft-data/img/d.mp3",
+  "./thanhdieuft-data/img/e.mp3",
+
 ];
 //Random music
 let index = Math.floor(Math.random() * ThanhDieu_List.length);
